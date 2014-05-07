@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="no-js pattern_1">
+<head>
+<title>Contact Us</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin,latin-ext"/>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome-ie7.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link id="color_css" rel="stylesheet" type="text/css" href="css/color_scheme_1.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.combosex.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.flexslider.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.scrollbar.css"/>
+
+<!--[if (lte IE 9)]>
+    <link rel="stylesheet" type="text/css" href="css/iefix.css"/>
+    <![endif]-->
+<script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.1.7.2.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/jquery.combosex.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+<script type="text/javascript" src="js/jquery.gmap.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollbar.min.js"></script>
+<script type="text/javascript" src="js/fitvids.js"></script><!-- fIt Video -->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+</head>
+<body>
+
+<!-- Bar -->
+<div id="bar">
+  <div class="inner"> 
+    
+    <!-- Language Menu -->
+    <ul id="lang-menu">
+      <li id="en" class="current">En</li>
+      <li id="fr"><a href="#">Fr</a></li>
+      <li id="de"><a href="#">De</a></li>
+      <li id="it"><a href="#">It</a></li>
+    </ul>
+    <!-- /Language Menu --> 
+    
+    <!-- User Menu -->
+    <ul id="user-menu">
+      <li id="login" class="first"><a href="#">Login</a></li>
+      <li id="register"><a href="#">Register</a></li>
+      <li id="bookmarks" class="last"><a href="#">Bookmarks</a></li>
+    </ul>
+    <!-- /User Menu --> 
+    
+  </div>
+</div>
+<!-- /Bar --> 
+
+<!-- Header -->
+<div id="header">
+  <div class="inner"> 
+    
+    <!-- Logo -->
+    <div id="logo"> <a href="index.html"><img src="images/Logo.png" width="205" height="50"  alt="logo"/></a><a class="menu-hider"></a></div>
+    <!-- /Logo -->
+    
+    <ul id="navigation">
+      <li> <a href="index.html">Home</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li class="first expanded"><a href="candidates-listing.html">Candidates</a>
+        <ul class="submenu">
+          <li><a href="candidates-listing.html">Candidate Listing (with sidebar)</a></li>
+          <li><a href="candidates-listing-no-sidebar.html">Candidate listing (without)</a></li>
+          <li><a href="candidate.html">Candidate</a></li>
+        </ul>
+      </li>
+      <li><a href="partners.html">Partners</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+      <li class="current"><a href="contacts.html">Contact</a></li>
+    </ul>
+    <div class="reponsive-nav">
+     <select  class="select" name="menu1" id="menu1"> 
+        <option value="index.html">Home</option>
+        <option value="jobs.html">Job listing</option>
+        <option value="job.html">Job Details</option>
+        <option value="candidates-listing.html">Candidate Listing (with sidebar)</option>
+        <option value="candidates-listing-no-sidebar.html">Candidate listing (without sidebar)</option>
+        <option value="candidate.html">Candidate Details</option>
+        <option value="partners.html">Partners</option>
+        <option value="about-us.html">About Us</option>
+        <option value="contacts.html">Contact</option>
+      </select>
+    </div>
+  </div>
+</div>
+<!-- /Header --> 
+
+<!-- Content -->
+<div id="content">
+  <div id="title">
+    <h1 class="inner title-2">Contact Us
+      <ul class="breadcrumb-inner">
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="thanks.html">Thanks</a></li>
+      </ul>
+    </h1>
+  </div>
+  <div class="inner"> 
+    
+    <!-- Content Inner -->
+    <div class="content-inner"> 
+      
+      <!-- Content Center -->
+      <div class="content-center">
+          <p>Message Successfully Send</p>
+       </div>
+      <!-- /Content Center --> 
+      
+      <!-- Content Right -->
+      <div class="content-right">
+        <div class="block background">
+          <h2 class="title-1">Send Us a Message</h2>
+          <div class = "block-content">
+           
+            <form id ="contact" class="email" action="mailer.php" method="post">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <div id = "about">
+                <input title="Your Name" type="text" name="name" class="textfield2" placeholder="Name" onclick="this.value='';" onfocus="$(this).addClass('active');" onblur="$(this).removeClass('active');"/>
+                <input title="Your E-Mail" type="text" name="email" class="textfield2" placeholder="E-mail" onclick="this.value='';" onfocus="$(this).addClass('active');" onblur="$(this).removeClass('active');"/>
+                <input title="Your WebSite" type="text" name="subject" class="textfield2" placeholder="WebSite" onclick="this.value='';" onfocus="$(this).addClass('active');" onblur="$(this).removeClass('active');"/>
+              </div>
+              <div id = "mess">
+                <textarea name="message" title="Your Message" name="message" cols="30" rows="6" class="textarea" onclick="this.value='';" onfocus="$(this).addClass('active');" onblur="$(this).removeClass('active');">How can I help you?</textarea>
+              </div>
+              <div id = "send">
+                <input id="send_btn" type="submit" value="Submit">  </a>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <!-- /Content Right -->
+      
+      <div class="clear"></div>
+      <!-- Clear Line --> 
+      
+    </div>
+    <!-- /Content Inner --> 
+    
+  </div>
+</div>
+<!-- /Content --> 
+
+<!-- Footer -->
+
+<div id="footer">
+  <section class="footer-wrapper">
+    <section class="row-fluid">
+      <section class="inner">
+        <div id="site-description">
+          <h3><img src="images/Logo.png" width="205" height="50"  alt=""/></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Praesent sodales velit quis augue. Cras suscipit.</p>
+        </div>
+        <div id="footer-menu">
+          <div id="nav-menu" class="footer-menu span3">
+            <h2>Navigation</h2>
+            <div class="left">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job-listing-1.html">Jobs</a></li>
+                <li><a href="partners.html">Partners</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+              </ul>
+            </div>
+            <div class="right">
+              <ul>
+                <li><a href="contacts.html">Contact Us</a></li>
+                <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="fol-menu" class="footer-menu span3">
+            <h2>Follow Us</h2>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+          <div id="job-menu" class="footer-menu span3">
+            <h2>Popular Jobs</h2>
+            <ul>
+              <li><a href="#">Web Developer</a></li>
+              <li><a href="#">Web Designer</a></li>
+              <li><a href="#">UX Engineer</a></li>
+              <li><a href="#">Account Manager</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+</div>
+<!-- /Footer -->
+<div class="clearfix"></div>
+<!-- Copyright -->
+<div id="copyright">
+  <div class="inner">
+    <div class="row-fluid"> 
+      <!-- Copyright Text -->
+      <div id="copyright-text">Copyright 2013 <a href="http://uouapps.com/careers">Career</a> | All Rights Reserved | Design by <a href="http://uouapps.com/">UOU Apps</a></div>
+      <!-- /Copyright Text --> 
+      <!-- Copyright Social Link -->
+      <div id="copyright-link">
+        <div class="buttons">
+          <ul class="top_soical_icons pull-right	">
+            <li> <a href="#"> <i class="fa fa-facebook"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-linkedin-square"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-pinterest"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-dribbble"></i> </a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /Copyright Social Link --> 
+      
+      <a class="scrollTop" href="#header" style="display: none;">
+      <div id = "up_container"> <span></span> </div>
+      </a> </div>
+  </div>
+</div>
+<!-- /Copyright --> 
+
+<!-- /Copyright -->
+<link href="css/switcher.css" rel="stylesheet" type="text/css" />
+<div class="demo_changer">
+  <div class="demo-icon"></div>
+  <div class="form_holder">
+    <div class="line"></div>
+    <p>CHOOSE YOUR STYLE</p>
+    <div class="predefined_styles"> <a href="javascript: void(0)" title="switch styling" id="color_scheme_1" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_2" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_3" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_4" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_5" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_6" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_7" class="switch_color"></a> <a href="javascript: void(0)" title="switch styling" id="color_scheme_8" class="switch_color"></a> </div>
+    <div class="line"></div>
+    <p>CHOOSE YOUR LAYOUT</p>
+    <div class="predefined_styles_layout"> <a href="javascript: void(0)" title="switch styling" id="full-width" class="layoutbtn">Fluid</a> <a href="javascript: void(0)" title="switch styling" id="boxed" class="layoutbtn">Fixed</a> </div>
+    <div class="line"></div>
+    <p>CHOOSE BACKGROUND</p>
+    <div class="predefined_styles_bg"> <a href="javascript: void(0)" title="switch styling" id="pattern_1" class="styling_pattern"></a> <a href="javascript: void(0)" title="switch styling" id="pattern_2" class="styling_pattern"></a> <a href="javascript: void(0)" title="switch styling" id="pattern_3" class="styling_pattern"></a> </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/switcher.js"></script>
+</body>
+</html>
